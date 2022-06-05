@@ -9,7 +9,7 @@ int b=2; // pushbutton pin
 void setup() {
   Serial.begin(9600);
   pinMode(b,INPUT_PULLUP);
-  Serial.println("Generating New Color");
+  Serial.println("Generating New Color"); //printing "Generating New Color" in serial monitor
  pinMode (blue,OUTPUT);
  pinMode(red,OUTPUT);
  pinMode(green,OUTPUT);
